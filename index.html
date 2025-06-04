@@ -9,31 +9,58 @@
 </head>
 <body>
   <!-- Banner -->
-  <header >
-   
+  <header class="banner text-center text-white d-flex align-items-center justify-content-center">
+   <h1>FitLife</h1>
   </header>
 
   <!-- Descripción -->
-  <section >
-    
+  <section class="container mt-5 text-center">
+    <h2>Tu bienestar, nuestra prioridad</h2>
+    <p>Ofrecemos rutinas personalizadas de ejercicio y planes de nutrición adaptados a ti.</p>
+
   </section>
 
   <!-- Servicios -->
-  <section >
+  <section class="container mt-5">
     <h2>Servicios</h2>
- 
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Entrenamiento Personal</h4>
+        <p>Programas ajustados a tu nivel y objetivos.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Nutrición Saludable</h4>
+        <p>Planes de alimentación diseñados por expertos.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Seguimiento en Línea</h4>
+        <p>Monitoreo continuo y ajustes semanales.</p>
+      </div>
+    </div>
   </section>
 
    <!-- Formulario de contacto -->
-  <section >
+  <section class="container mt-5 mb-5">
     <h2>Contáctanos</h2>
     <form>
-
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" required />
+      </div>
+      <div class="mb-3">
+        <label for="correo" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="correo" required />
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
   </section>
 
-  <footer>
-   
+  <footer class="text-center py-3 bg-dark text-white">
+   © 2025 FitLife - Todos los derechos reservados
   </footer>
 
 
